@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hannah Hsieh",
+    "section": "",
+    "text": "My name is Hannah."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My favorite animal is dog!"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "library(ggplot2)\n\n# Basic scatter plot\nggplot(data = mtcars, aes(x = wt, y = mpg)) +\n  geom_point(size = .8, col=\"firebrick\") + xlab(\"Vehicle Weight\") +\n  ylab(\"Miles per Gallon (MPG)\") +\n  theme_bw()\n\n\n\n\n\n\n\nlibrary(plotly)\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n# Create a ggplot object\np &lt;- ggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point(size = .8, shape = 21, color = \"steelblue\", fill = \"lightblue\")  + xlab(\"Vehicle Weight\") + \n  theme_bw()\n\n# Convert the ggplot object to an interactive plot\nggplotly(p)\n\n\n\n\n\n\n# Bar chart of diamond cuts\nggplot(diamonds, aes(x = cut)) +\n  geom_bar(fill = \"skyblue\") +\n  theme_bw()\n\n\n\n\n\n\n\n\n\n# Convert ggplot bar chart to interactive plot\np_bar &lt;- ggplot(diamonds, aes(x = cut)) +\n  geom_bar(fill = \"skyblue\") +\n  theme_bw()\n\nggplotly(p_bar)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "research",
+    "section": "",
+    "text": "My publictions"
+  }
+]
